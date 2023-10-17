@@ -1,0 +1,109 @@
+*
+{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppin', sans-serif;
+}
+
+.whole 
+{
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    max-height: 1250px;
+    background: pink;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+
+.whole .left{
+    position: relative;
+    background-color: pink;
+    padding: 100px;
+}
+
+.whole .right{
+    position: relative;
+    background-color: #D3D3D3;
+    padding: 120px;
+}
+.imgg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.name{
+    color: white;
+}
+
+.course{
+    color: white;
+
+}
+a.btn:link, a.btn:visited {
+    margin-top: 10px;
+    width:100%;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid gray(255,255,255,0.2);
+  }
+
+a.btn:hover {
+    background-color: #778899;
+    color:rgb(255, 255, 255);
+}
+
+a.btn:active{
+    color:aqua;
+}
+h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 1%;
+    margin-bottom: 0;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0;
+    line-height: 300%;
+
+}
+
+.wrapper{
+    min-height: 950px;
+}
+.header{
+    min-height: 150px;
+}
+
+.imgLogo{
+    width: 30%;
+    height:30%;
+    float:right;
+}
+.logo{
+    width:20%;
+    min-height: 150px;
+    float:left;
+}
+
+.textHeader{
+    width:75%;
+    min-height: 150px;
+    float:left;
+    font-size: 3em;
+    margin-left:5%;
+}
